@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <!-- Define the character set for the document -->
+   <meta charset="UTF-8">
+
+   <!-- Set the viewport for responsive design -->
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <!-- Set the title of the document -->
+   <title>Bitcoin Halving Countdown</title>
+
+   <!-- Link to an external stylesheet (styles.css) for styling -->
+   <link rel="stylesheet" href="styles.css">
+
+   <!-- Meta tag for the author -->
+   <meta name="author" content="Dr. Melchisedec Bankole">
+</head>
+
+<body>
+   <!-- Main content container -->
+   <main>
+
+      <!-- Header section -->
+      <header>
+         <h1>Bitcoin Halving Countdown</h1>
+      </header>
+
+      <!-- Main section containing countdown and informative text -->
+      <section id="main-section">
+
+         <!-- Countdown timer container -->
+         <div id="countdown">
+            <!-- Days section of the countdown -->
+            <div>
+               <span id="days">00</span>
+               <small>Days</small>
+            </div>
+
+            <!-- Hours section of the countdown -->
+            <div>
+               <span id="hours">00</span>
+               <small>Hours</small>
+            </div>
+
+            <!-- Minutes section of the countdown -->
+            <div>
+               <span id="minutes">00</span>
+               <small>Minutes</small>
+            </div>
+
+            <!-- Seconds section of the countdown -->
+            <div>
+               <span id="seconds">00</span>
+               <small>Seconds</small>
+            </div>
+         </div>
+
+         <!-- Article for informative text about Bitcoin halving -->
+         <article id="halving-info">
+            <p>
+               Bitcoin halving is a critical event in its blockchain, occurring approximately every four years (210,000 blocks).<br>
+               Bitcoin halvings are associated with specific block heights, with the 2024 halving expected at block height 840,000.<br>
+               The halving cycle occurs every 210,000 blocks, shaping the supply dynamics of Bitcoin.<br>The last halving was in May 2020,
+               and the next is expected around April 2024, reducing the block reward from 6.25 to 3.125 bitcoins.
+            </p>
+         </article>
+
+      </section>
+
+   </main> <!-- Closing tag for the main container -->
+
+   <!-- Footer section -->
+   <footer>
+      <p>&copy; 2024 Dr Melchisedec Bankole <br> Bitcoin Countdown. All rights reserved.</p>
+   </footer>
+
+   <!-- Include the OneSignal JavaScript library asynchronously -->
+   <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+
+   <!-- Initialize OneSignal with app ID -->
+   <script>
+      var OneSignal = window.OneSignal || [];
+      OneSignal.push(function() {
+         OneSignal.init({
+            appId: "ONESIGNAL_APP_ID",
+         });
+      });
+   </script>
+
+   <!-- Countdown.js script for handling the countdown functionality -->
+   <script src="countdown.js"></script>
+</body>
+</html>
