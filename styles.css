@@ -66,6 +66,28 @@ header h1 {
    color: #666; /* Text color for the countdown labels */
 }
 
+/* Style pre_event_dates */
+
+#pre_event_dates {
+   margin-top: 20px;
+}
+
+#pre_event_dates strong {
+   font-size: 18px;
+   color: #333; /* Adjust color as needed */
+}
+
+#pre_event_dates ul {
+   list-style-type: none;
+   padding: 0;
+}
+
+#pre_event_dates li {
+   margin-bottom: 8px;
+   font-size: 16px;
+   color: #666; /* Adjust color as needed */
+}
+
 /* Media query for larger screens (min-width: 768px) */
 @media only screen and (min-width: 768px) {
    header {
