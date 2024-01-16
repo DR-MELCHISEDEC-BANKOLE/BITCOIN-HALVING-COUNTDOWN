@@ -1,11 +1,11 @@
-// Set the date we're counting down to
-const countDownDate = new Date("April 22, 2024 00:00:00").getTime();
+// Set the date we're counting down to in UTC using ISO 8601 format
+const countDownDate = new Date("2024-04-22T00:00:00Z").getTime();
 
 // Update the countdown every 1 second
 const x = setInterval(function() {
-   // Get the current date and time
+   // Get the current date and time in UTC
    const now = new Date().getTime();
-
+   
    // Calculate the remaining time
    const distance = countDownDate - now;
 
@@ -27,5 +27,6 @@ const x = setInterval(function() {
       document.getElementById("countdown").innerHTML = "COUNTDOWN EXPIRED";
    }
 }, 1000);
+
 
 
