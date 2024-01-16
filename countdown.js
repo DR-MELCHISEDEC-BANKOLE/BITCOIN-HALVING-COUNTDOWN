@@ -27,6 +27,3 @@ const x = setInterval(function() {
       document.getElementById("countdown").innerHTML = "COUNTDOWN EXPIRED";
    }
 }, 1000);
-
-
-
