@@ -1,5 +1,5 @@
 // Set the date we're counting down to in UTC using ISO 8601 format
-const countDownDate = new Date("2024-04-22T00:00:00Z").getTime();
+const countDownDate = new Date("2024-04-22T13:59:31Z").getTime();
 
 // Update the countdown every 1 second
 const x = setInterval(function() {
