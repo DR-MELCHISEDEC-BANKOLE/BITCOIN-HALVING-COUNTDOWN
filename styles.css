@@ -21,7 +21,7 @@ header {
 /* Style for the h1 element inside the header */
 header h1 {
    margin: 0; /* Remove default margin for h1 */
-   margin-top: 450px; /* Remove default margin for h1 */
+   margin-top: 500px; /* Remove default margin for h1 */
    padding: 10px;
    font-size: 3em; /* Font size for h1 */
    font-weight: bold;
