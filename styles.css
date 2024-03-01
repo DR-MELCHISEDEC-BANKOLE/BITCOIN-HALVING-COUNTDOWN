@@ -90,22 +90,27 @@ header h1 {
 /* Media query for larger screens (min-width: 768px) */
 @media only screen and (min-width: 768px) {
    header {
-      margin-top: 50px; /* Adjust margin for larger screens */
+      margin-top: 500px; /* Adjust margin for larger screens */
+      padding: 20px; /* Add padding for better spacing */
    }
-      body {
-   margin-top: 50px; /* Adjust margin for mobile phones */
+   body {
+      padding: 20px; /* Add padding to the body for better spacing */
    }
 }
 
 /* Media query for mobile phones (max-width: 767px) */
 @media only screen and (max-width: 767px) {
    header {
-      margin-top: 50px; /* Adjust margin for mobile phones */
+      margin-top: 500px; /* Adjust margin for mobile phones */
+      padding: 10px; /* Add padding for better spacing */
    }
    header h1 {
       font-size: 2em; /* Adjust font size for better visibility on mobile */
+
    }
    body {
-    margin-top: 500px; /* Adjust margin for mobile phones */
+      margin-top: 50px; /* Adjust margin for mobile phones */
+      padding: 10px; /* Add padding to the body for better spacing */
+      font-size: 16px; /* Adjust font size for better readability on mobile */
    }
 }
