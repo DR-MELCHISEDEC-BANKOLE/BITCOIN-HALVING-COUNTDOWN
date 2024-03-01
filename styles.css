@@ -90,27 +90,45 @@ header h1 {
 /* Media query for larger screens (min-width: 768px) */
 @media only screen and (min-width: 768px) {
    header {
-      margin-top: 500px; /* Adjust margin for larger screens */
-      padding: 20px; /* Add padding for better spacing */
+      margin-top: 50px; /* Adjust margin for larger screens */
+      padding: 20px 50px; /* Add padding for better spacing */
    }
    body {
-      padding: 20px; /* Add padding to the body for better spacing */
+      padding: 20px 50px; /* Add padding to the body for better spacing */
    }
 }
 
-/* Media query for mobile phones (max-width: 767px) */
-@media only screen and (max-width: 767px) {
+/* Media query for medium-sized mobile phones (max-width: 600px) */
+@media only screen and (max-width: 600px) {
    header {
-      margin-top: 500px; /* Adjust margin for mobile phones */
-      padding: 10px; /* Add padding for better spacing */
+      margin-top: 250px; /* Adjust margin for medium-sized mobile phones */
+      padding: 10px 10px; /* Add padding for better spacing */
+      margin-left: 5px; /* Adjust margin for better visibility */
+      margin-right: 5px; /* Adjust margin for better visibility */
    }
    header h1 {
-      font-size: 2em; /* Adjust font size for better visibility on mobile */
-
+      font-size: 1.8em; /* Adjust font size for better visibility on medium-sized mobile phones */
    }
    body {
-      margin-top: 50px; /* Adjust margin for mobile phones */
-      padding: 10px; /* Add padding to the body for better spacing */
-      font-size: 16px; /* Adjust font size for better readability on mobile */
+      margin-top: 100px; /* Adjust margin for medium-sized mobile phones */
+      padding: 30px 20px; /* Add padding to the body for better spacing */
+      font-size: 14px; /* Adjust font size for better readability on medium-sized mobile phones */
+      margin-left: 75px; /* Adjust margin for better visibility */
+      margin-right: 5px; /* Adjust margin for better visibility */
+      text-indent: 1em; /* Add an indent to the first line */
+      overflow-wrap: break-word; /* Ensure long words break and do not overflow */
    }
+      footer {
+      text-align: center; /* Center align footer content */
+      background-color: #f0f0f0; /* Background color for footer */
+      padding: 20px 0; /* Add padding top and bottom */
+      position: fixed; /* Position the footer at the bottom */
+      left: 0;
+      bottom: 0;
+      width: 100%;
+   }
+}
+/* Additional CSS */
+h1, p {
+   text-indent: 0; /* Ensure the first letters are not hidden */
 }
